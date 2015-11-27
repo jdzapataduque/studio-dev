@@ -11,7 +11,8 @@
   }
   .home-wrapper
   {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/background.jpg') no-repeat center top;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
+    url('../images/background.jpg') no-repeat center top;
     background-size: cover;
     color: #ffffff;
   }
@@ -164,6 +165,26 @@
   #contacto h2
   {
     color: #ffffff;
+  }
+  #go-up li
+  {
+    background-color:#fed136;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 1.5em;
+  }
+  #go-up li a
+  {
+    color: white;
+    padding: 1em 0.2em;
+  }
+  .go-up
+  {
+      position: fixed;
+      right: 0.3em;
+      bottom: 0.3em;
+      list-style-type: none;
+
   }
   footer
   {
